@@ -22,6 +22,7 @@ public class Dessin extends JPanel {
 
     public Dessin(Tsimbazaza tsimbazaza) {
         this.tsimbazaza = tsimbazaza;
+        this.tsimbazaza = tsimbazaza;
         this.totalAnimaux = Animaux.getCount();
         this.carnivoreEatFrames = new HashMap<>();
         staticCarnivoreEatFrames = carnivoreEatFrames;
